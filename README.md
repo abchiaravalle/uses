@@ -90,6 +90,15 @@ Scan or drop in a document and it reads the text, tags it, and makes it searchab
 
 ## Websites and analytics
 
+### [OpenSEO](https://openseo.so)
+
+`open source` `self-host` `paid`
+
+An open-source alternative to Semrush and Ahrefs: keyword research, rank tracking, competitor insights, backlinks, site audits and AI visibility. It comes with a connector for AI agents (MCP), so Hermes plugs into it and pulls SEO data on its own. I run my own copy on Cloudflare.
+
+- Code: [every-app/open-seo](https://github.com/every-app/open-seo), MIT.
+- Cost: there's no subscription when you self-host. You bring your own DataForSEO API key and pay only for the data you pull. My copy also needs Cloudflare's $5 a month Workers plan. The hosted version is $10 a month.
+
 ### [Rybbit](https://rybbit.com)
 
 `open source` `self-host` `paid`
