@@ -62,6 +62,14 @@ Download and run AI models on your own Mac. You can chat with them in the app or
 
 - The app isn't open source. Its command-line tool ([lmstudio-ai/lms](https://github.com/lmstudio-ai/lms)) and SDKs are MIT.
 
+### [Open WebUI](https://openwebui.com)
+
+`source available` `self-host` `free`
+
+A ChatGPT-style chat page you run yourself. It connects to local models (Ollama, LM Studio) or cloud ones (OpenAI, Anthropic, anything compatible), and handles document search, web search, voice and image tools. You can extend it with Python.
+
+- Code: [open-webui/open-webui](https://github.com/open-webui/open-webui). It uses its own Open WebUI License, a BSD-style license with one extra rule: you can't remove or change the Open WebUI name and logo if more than 50 people use your copy in a 30-day period, unless you have their permission or an enterprise license.
+
 ## Automation and documents
 
 ### [n8n](https://n8n.io)
@@ -160,6 +168,22 @@ Puts all your computers, phones and servers on one private network, wherever the
 A password manager with end-to-end encryption, passkeys, and apps for every browser, phone and computer. The free plan covers unlimited passwords and devices.
 
 - Code: [bitwarden/clients](https://github.com/bitwarden/clients) (GPLv3) and [bitwarden/server](https://github.com/bitwarden/server) (AGPLv3). A few business features use Bitwarden's own license.
+
+### [Vaultwarden](https://github.com/dani-garcia/vaultwarden)
+
+`open source` `self-host` `free`
+
+A lightweight password server you host yourself that works with the regular Bitwarden apps and browser extensions. It covers nearly everything Bitwarden's own server does, including sharing, attachments, Send and two-factor login, and it's built to be lighter to self-host than Bitwarden's official server. I run my own copy. It's unofficial and not affiliated with Bitwarden.
+
+- Code: [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden), AGPLv3.
+
+### [BlueBubbles](https://bluebubbles.app)
+
+`open source` `self-host` `free`
+
+iMessage on Android, Windows and Linux. You run the BlueBubbles server on a Mac that stays signed in to your Apple ID, and it forwards your iMessages to the BlueBubbles apps on your other devices.
+
+- Code: [BlueBubblesApp/bluebubbles-server](https://github.com/BlueBubblesApp/bluebubbles-server), Apache-2.0. It needs macOS 10.15 or newer.
 
 ### [LocalSend](https://localsend.org)
 
