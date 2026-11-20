@@ -225,7 +225,7 @@ A Mac launcher that replaces Spotlight: apps, clipboard history, snippets, windo
 
 `open source` `free`
 
-A suite of desktop apps from the [storytold](https://github.com/storytold) team, each one written from scratch in Rust. They're light and fast, and they run on Mac, Windows and Linux. The team ships updates every few days.
+A suite of desktop apps from the [storytold](https://github.com/storytold) team for Mac, Windows and Linux. The Craft apps are written from scratch in pure Rust with no web engine inside. ArtCraft itself is built on Tauri, which pairs Rust with a web interface. The team ships updates often.
 
 - **[ArtCraft](https://github.com/storytold/artcraft)**: AI image and video creation where you build the scene first. Pose characters, stage props in 3D, set the camera, then generate. You pick which AI models it uses.
 - **[ArtCraft Launcher](https://github.com/storytold/craft-launcher)**: one small menu bar app that installs and updates every app below. Start here.
