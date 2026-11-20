@@ -11,7 +11,7 @@
 
 My favorite tools. Some are open source, some are paid. Each one has tags so you know which is which before you click.
 
-**Tags:** `open source` code is public · `self-host` you can run it on your own server · `free tier` you can try it without paying · `paid` costs money
+**Tags:** `open source` code is public · `self-host` you can run it on your own server · `free` costs nothing · `free tier` you can try it without paying · `paid` costs money
 
 ## Sales and CRM
 
