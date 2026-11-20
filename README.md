@@ -13,7 +13,7 @@ My favorite tools. Some are open source, some are paid. Each one has tags so you
 
 **Tags:** `open source` code is public · `source available` code is public, but the license limits how you can use it · `self-host` you can run it on your own server · `free` costs nothing · `free tier` you can try it without paying · `paid` costs money
 
-**Sections:** [Sales and CRM](#sales-and-crm) · [AI and notes](#ai-and-notes) · [Automation and documents](#automation-and-documents) · [Websites and analytics](#websites-and-analytics) · [Video and feeds](#video-and-feeds) · [Network, passwords and Mac](#network-passwords-and-mac) · [Stuff I built](#stuff-i-built)
+**Sections:** [Sales and CRM](#sales-and-crm) · [AI and notes](#ai-and-notes) · [Automation and documents](#automation-and-documents) · [Websites and analytics](#websites-and-analytics) · [Video and feeds](#video-and-feeds) · [Network, passwords and Mac](#network-passwords-and-mac) · [Creative apps](#creative-apps) · [Stuff I built](#stuff-i-built)
 
 ## Sales and CRM
 
@@ -34,6 +34,15 @@ B2B contact and company data through an API: work emails, mobile numbers, job ti
 
 - Docs: [developer.moltsets.com](https://developer.moltsets.com)
 - Cost: the free tier gives you 1,000 calls with no card. Paid plans start at $27 a month for unlimited data under a fair use policy. Mobile numbers cost extra through a monthly add-on, about $0.15 each.
+
+### [Cal.diy](https://cal.diy)
+
+`open source` `self-host` `free`
+
+Booking pages like Calendly: you share a link, and people pick a time that fits your schedule. It's the community edition of Cal.com with all the enterprise code removed. I run my own copy with our branding.
+
+- Code: [calcom/cal.diy](https://github.com/calcom/cal.diy), MIT. There's no hosted version, so you run it yourself.
+- Before you pick it for a company: its own README calls it for personal, non-production use, and it drops Cal.com's Teams, Workflows, Insights and SSO. For a team, look at Cal.com instead.
 
 ## AI and notes
 
@@ -115,6 +124,15 @@ Website analytics without cookies, a privacy-friendly Google Analytics alternati
 
 - Code: [rybbit-io/rybbit](https://github.com/rybbit-io/rybbit), AGPLv3.
 - Cost: self-hosting is free. The cloud starts at $13 a month (billed yearly) for 100k pageviews, after a 7-day free trial.
+
+### [OpenReplay](https://openreplay.com)
+
+`open source` `self-host` `paid`
+
+Session replay you host yourself, like Hotjar or FullStory. You can watch a recording of what a visitor saw and clicked, with the console errors and network requests alongside it, so a bug report turns into something you can replay. It also does product analytics, co-browsing and an MCP server for AI agents.
+
+- Code: [openreplay/openreplay](https://github.com/openreplay/openreplay), mostly AGPLv3. The `ee/` folder uses a separate enterprise license.
+- Cost: the self-hosted version is free and they call it a fit for low traffic. A managed Dedicated instance starts at $199 a month.
 
 ### [Shlink](https://shlink.io)
 
@@ -200,6 +218,23 @@ AirDrop that works between any devices on the same Wi-Fi: Mac, Windows, Linux, i
 A Mac launcher that replaces Spotlight: apps, clipboard history, snippets, window snapping, a calculator, and thousands of extensions.
 
 - Not open source. The free plan covers the core features. Pro, which adds AI, starts at $10 a month.
+
+## Creative apps
+
+### [ArtCraft and the Craft apps](https://getartcraft.com)
+
+`open source` `free`
+
+A suite of desktop apps from the [storytold](https://github.com/storytold) team, each one written from scratch in Rust. They're light and fast, and they run on Mac, Windows and Linux. The team ships updates every few days.
+
+- **[ArtCraft](https://github.com/storytold/artcraft)**: AI image and video creation where you build the scene first. Pose characters, stage props in 3D, set the camera, then generate. You pick which AI models it uses.
+- **[ArtCraft Launcher](https://github.com/storytold/craft-launcher)**: one small menu bar app that installs and updates every app below. Start here.
+- **[PhotoCraft](https://github.com/storytold/photocraft)** for photo editing, **[LightCraft](https://github.com/storytold/lightcraft)** for non-destructive photo edits, **[VectorCraft](https://github.com/storytold/vectorcraft)** for vector art, **[DesignCraft](https://github.com/storytold/designcraft)** for page layout, **[FigCraft](https://github.com/storytold/figcraft)** for interface design
+- **[FilmCraft](https://github.com/storytold/filmcraft)** for video editing, **[EffectCraft](https://github.com/storytold/effectcraft)** for motion graphics, **[AniCraft](https://github.com/storytold/anicraft)** for 2D animation, **[SoundCraft](https://github.com/storytold/soundcraft)** for audio
+- **[PdfCraft](https://github.com/storytold/pdfcraft)** for PDFs, **[WordCraft](https://github.com/storytold/wordcraft)** for documents, **[GridCraft](https://github.com/storytold/gridcraft)** for spreadsheets, **[DeckCraft](https://github.com/storytold/deckcraft)** for slides
+- **[CADCraft](https://github.com/storytold/cadcraft)** for CAD, **[TextureCraft](https://github.com/storytold/texturecraft)** and **[MaterialCraft](https://github.com/storytold/materialcraft)** for 3D textures and materials
+- **[Craft Anything](https://github.com/storytold/craft-anything)**: point it at a website, app or game, say what you want, and a coding agent studies the original and builds your own version of it. Every tool in it also works from the command line and as an MCP tool.
+- Code: Apache-2.0 across the suite. Most apps are still below version 1.0, so expect rough edges and keep your current tools around while you try them.
 
 ## Stuff I built
 
